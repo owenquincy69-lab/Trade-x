@@ -1,0 +1,31 @@
+{
+  "name": "trade-x",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Trade X broker technology platform",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch services/api/server.ts",
+    "build": "tsc",
+    "start": "node dist/services/api/server.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@fastify/cors": "^10.0.2",
+    "@fastify/helmet": "^13.0.1",
+    "@fastify/jwt": "^9.1.0",
+    "dotenv": "^16.4.7",
+    "fastify": "^5.2.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "eslint": "^9.20.1",
+    "prettier": "^3.5.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.6"
+  }
+}

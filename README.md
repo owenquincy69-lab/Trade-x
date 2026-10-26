@@ -1,48 +1,29 @@
+# Welcome to your Lovable project
 
+This project was built with [Lovable](https://lovable.dev).
 
-## 1. Technology Stack
+## Build with Lovable
 
-### Backend
+Open your project in the [Lovable editor](https://lovable.dev) and keep building.
 
-- Node.js
-- Express.js
-- SQLite
-- better-sqlite3
-- JSON Web Tokens (JWT)
-- bcryptjs
-- WebSocket
-- CORS
-- dotenv
+- **Ship faster**: describe what you want to build and Lovable handles the code.
+- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
+- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
 
-### Frontend
+## Development
 
-- HTML5
-- CSS3
-- JavaScript
-- WebSocket API
+Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
 
-### Development Environment
+```sh
+git clone <this-repository-url>
+cd <repository-name>
+npm i
+npm run dev
+```
 
-- Windows
-- Visual Studio Code
-- Command Prompt
+## Built with
 
----
-
-## 2. Project Structure
-
-```text
-trade x/
-│
-├── package.json
-├── package-lock.json
-├── .env
-├── server.js
-├── trade-x.db
-│
-└── public/
-    ├── index.html
-    ├── login.html
-    ├── dashboard.html
-    ├── trader.html
-    └── style.css
+- TanStack Start
+- TypeScript
+- React
+- Tailwind CSS
